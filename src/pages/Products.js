@@ -8,7 +8,7 @@ const PRODUCTS = [
 function ProductsPage() {
   return (
     <>
-      <h1>Products</h1>;
+      <h1>Products</h1>
       <ul>
         {PRODUCTS.map((prod) => (
           <li key={prod.id}>
